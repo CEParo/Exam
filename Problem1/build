@@ -1,0 +1,4 @@
+#!/bin/bash
+config-pin 8.14 in+
+config-pin 8.16 in+
+g++ control-gpio.cpp GPIO.cpp derek_LED.cpp -o control_gpio -pthread 

@@ -1,0 +1,2 @@
+#!/bin/bash
+g++ process-temp.cpp -o process-temp

@@ -35,7 +35,7 @@ int main()
   if (inGPIO1.getValue() == HIGH) 
     leds.turnOff();
   else
-   leds.turnOn();
+    leds.turnOn();
   if (inGPIO.getValue() == HIGH)
     outGPIO.streamWrite(LOW);
   else
